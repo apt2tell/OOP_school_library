@@ -35,6 +35,10 @@ class Person < Nameable
   def correct_name
     @name
   end
+
+  def rent_book(date, book)
+    Rental.new(date, book, self)
+  end
 end
 
 person = Person.new(22, 'maximilianus')
