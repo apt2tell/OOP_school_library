@@ -176,16 +176,6 @@ class App
     puts ''
 
     parent_permission = gets.chomp.upcase
-    # case parent_permission
-    # when 'Y'
-    #   parent_permission = true
-    # when 'N'
-    #   parent_permission = false
-    # end
-
-    # print 'Classroom: '
-    # classroom = gets.chomp
-
     new_student = Student.new(age, parent_permission, name)
     @people.push(new_student)
     puts 'Student created successfully'
