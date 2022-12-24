@@ -148,7 +148,7 @@ class App
     @rental.push(rental)
 
     puts 'Rental successfully created!'
-    
+
     show_menu
   end
 
