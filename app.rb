@@ -98,7 +98,7 @@ class App
     puts 'List of people:'
     puts ''
     @people.each_with_index do |item, idx|
-      puts "#{idx} -- [#{item.class}] Name: #{item.name}, Age: #{item.age}"
+      puts "#{idx} -- [#{item.class}] Name: #{item.name}, Age: #{item.age}, ID: #{item.id}"
     end
     show_menu
   end
