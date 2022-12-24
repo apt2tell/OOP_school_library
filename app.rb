@@ -176,7 +176,7 @@ class App
     puts ''
 
     parent_permission = gets.chomp.upcase
-    new_student = Student.new(age, permission, name)
+    new_student = Student.new(age, parent_permission, name)
     @people.push(new_student)
     puts 'Student created successfully'
     show_menu
